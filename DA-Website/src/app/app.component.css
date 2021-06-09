@@ -1,0 +1,14 @@
+
+.navbar{
+    background-color: #ffffff;
+
+}
+.navbar-light .navbar-nav .nav-link{
+    color: #000000
+}
+
+.Alignment{
+    display: flex;
+    text-align: right;
+    text-decoration: none;
+}
