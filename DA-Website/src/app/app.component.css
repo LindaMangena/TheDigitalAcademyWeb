@@ -4,11 +4,14 @@
 
 }
 .navbar-light .navbar-nav .nav-link{
-    color: #000000
+    color: #000000;
+    font-size : 18 ;
+
 }
 
-.Alignment{
-    display: flex;
-    text-align: right;
-    text-decoration: none;
+.navbar-light .navbar-nav .nav-link:hover{
+    text-decoration: underline;
+
 }
+
+
