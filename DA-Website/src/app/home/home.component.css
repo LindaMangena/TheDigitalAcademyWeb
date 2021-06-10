@@ -6,3 +6,16 @@
     object-position: center;
     object-fit: cover;
 }
+
+.homecontent{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%)
+}
+
+.homecontent h1 {
+    color: #ffffff;
+    font-size: 50px;
+}
+
