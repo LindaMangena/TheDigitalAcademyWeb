@@ -10,12 +10,29 @@
 .homecontent{
     position: absolute;
     top: 50%;
-    left: 50%;
+    left: 40%;
     transform: translate(-50%,-50%)
 }
 
 .homecontent h1 {
-    color: #ffffff;
+    color: yellowgreen;
     font-size: 50px;
+}
+.homecontent a {
+    margin-top: 10px;
+
+}
+
+@media screen and (max-width:600px)
+{
+    .home img
+{
+    width: 700%;
+    
+}
+     .homecontent h1 
+     {
+         font-size: 40px
+     }
 }
 
