@@ -6,8 +6,10 @@
 
             <div class="col-lg-3" *ngFor=" let c of course ">
                 <div class="box">
-                    <img src="cs.image" width="100%">
-                <h1>{{c.name}}</h1>
+                    <img src={{c.image}} width="100%">
+                    <h1>{{c.name}}</h1>
+                    <p>{{c.description}}</p>
+                   
 
                 </div>
 
